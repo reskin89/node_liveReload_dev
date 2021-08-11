@@ -1,0 +1,9 @@
+version: "3"
+services:
+  build:
+    image: reskin89/web-dev-server:latest
+    volumes:
+      - ./:/usr/local/src
+    working_dir: /usr/local/src
+    ports:
+      - 5000:5000
